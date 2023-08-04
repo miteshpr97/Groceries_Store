@@ -32,8 +32,8 @@ app.use('/me', me);
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        team_name: "Curious Monkeys",
-        dev_team: ["Baraa A.", "Eman S.", "Sary N.", "Youssef S."].sort()
+        team_name: "mitesh",
+        dev_team: [ "Mitesh Pradhan"].sort()
     })
 });
 
